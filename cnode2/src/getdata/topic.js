@@ -27,6 +27,6 @@ function getTopics(options){
 function getTopic(topicId){
   return $http.get('/topic/'+topicId)
 }
-
-//暴露 功能
+// 修改了这里
+//暴露的功能
 export {getTopics,getTopic}
